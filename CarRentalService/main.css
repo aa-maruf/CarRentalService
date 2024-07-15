@@ -1,0 +1,225 @@
+/* All fonts Link */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;500&family=Raleway:wght@200;300;400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;300;600&display=swap");
+
+
+
+
+
+label{
+
+    color: white;
+    font-size: 120%;
+}
+
+button {
+    background-color: black ;
+    color: rgb(255, 255, 255);
+    border: 2px solid #fa9624;
+    border-radius: 20px;
+    padding: 2% 4% 2% 4%;
+    height: 50px;
+    width: 200px;
+}
+button:hover {
+
+    background-color: #fa9624;
+    color: black;
+    font-weight: bold;
+}
+
+
+
+
+/* ALL Classes */
+
+
+/* background car Image in landing page */
+.main {
+    
+    background-image: url(blackcar.jpeg);
+    background-size: cover;
+    width: 100%;
+    height: 95vh;
+    font-family: "JetBrains Mono", monospace;
+}
+  
+
+/* navigation bar css code */
+.nav-logo {
+    color: white; 
+    font-size: 150%; 
+    font-family: 'JetBrains Mono', monospace; 
+}
+.nav-logo:hover {
+    color: #fb8500;
+}
+
+.nav-link{
+    font-family: 'JetBrains Mono', monospace;
+    align-items: center;
+    transition: 0.5s;
+    color: rgb(255, 255, 255);
+}
+.nav-link:hover {
+    background-color: #fb8500;
+    transition: 0.4s;
+    color: black;
+    font-weight: bold;
+}
+.nav-btn {
+
+    border: 1px solid #fb8500;
+    border-radius: 15px;
+    margin-left: 5%;
+    color: white;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+.nav-btn:hover {
+    
+    background-color: #fb8500;
+    color: black;
+    font-weight: bold;
+}
+
+
+/* Image in background and the bold tags */
+.main h3 {
+    font-size: 4.4rem;
+    font-weight: 600;
+    color: #fff; 
+    padding-top: 30%;
+}
+.main h6 {
+    font-size: 1.4rem;
+    color: #1984ff;
+    margin-bottom: 5%;
+}
+
+
+
+                                    /* Sign Up Page Nav Bar */
+.nav-sign{
+    /* display: flex;
+    justify-content: center; */
+    align-items: center;
+}
+
+.heading-for-login{
+    margin-top: 10%;
+    color: white;
+}
+
+
+.sign-up-back{
+    
+    height: auto;
+    width: 800px;
+    margin-top: 3%;
+    margin-bottom: 10%;
+    padding: 5% 7% 5% 7%; 
+    border: 1px solid #fa9624;
+    background-color: #0c0c0c;
+    border-radius: 30px;
+}
+
+
+.input-design{
+
+    background-color: #02040f;
+    padding: 10px;
+    border-radius: 10px;
+    /* margin-bottom: 10%; */
+    text-align: center;
+    color: white;
+    font-size: 100%;
+}
+.form-control::placeholder {
+    color: #46494c;
+    font-size: 90%;
+}
+
+ 
+
+.button-design {
+    background-color: black ;
+    color: rgb(255, 255, 255);
+    border: 2px solid #fa9624;
+    border-radius: 20px;
+    padding: 2% 4% 2% 4%;
+    height: 50px;
+    width: 200px;
+}
+
+
+
+
+/* Everything on Dropdown */
+.dropdown {
+    background-color: black ;
+    color: #fa9624;
+    /* border: 2px solid #fa9624; */
+    border-radius: 15px;
+    width:200px;
+}
+.dropdown-menu {
+    background-color: black ;
+    color: #fa9624;
+    border: solid #fa9624;
+    width: 200px;
+    text-align:center
+}
+.dropdown-item {
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    border-color: none;
+    color: #fa9624;
+    border: none;
+}
+
+.dropdown-item:hover {
+
+    color: black;
+    
+}
+.btn {
+    border-color: transparent;
+}
+
+#img-input-design {
+    
+    /* background-color: black ; */
+    color: rgb(255, 255, 255);
+    border: 2px solid #fa9624;
+    border-radius: 20px;
+    padding: 2% 4% 2% 4%;
+    height: 50px;
+    width: 200px;
+}
+
+/* Profile Picture In Edit Profile Page */
+.prof_pic {
+    
+    border: 2px solid #fa9624;
+    border-radius: 50%;
+}
+.form-check-input:checked {
+
+    background-color: #fa9624;
+    border-color: #fa9624;
+}
+
+
+
+
+/* Admin Dashboard Classes */ 
+
+.admin_Dashboard_Heading {
+
+    font-family: 'JetBrains Mono', monospace;font-size: 45px; padding-left: 45%; padding-top: 5%; padding-bottom: 2%; color: aqua;
+}
+
+
+
